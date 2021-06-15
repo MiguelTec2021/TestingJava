@@ -23,7 +23,7 @@ public class StringUtil {
             resul = true;
         }
         if (str == ""){
-            resul = false;
+            resul = true;
         }
 
         return resul;

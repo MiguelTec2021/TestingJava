@@ -29,5 +29,9 @@ public class StringUtilTest {
         Assert.assertEquals(true, StringUtil.isEmpty("s"));
     }
 
+    @Test
+    public void quotes_empty_is_string_empty() {
+        Assert.assertEquals(true, StringUtil.isEmpty(""));
+    }
 
 }
