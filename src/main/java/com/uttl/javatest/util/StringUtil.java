@@ -15,4 +15,17 @@ public class StringUtil {
         }
         return result;
     }
+
+    public static Boolean isEmpty(String str) {
+        boolean resul = true;
+
+        if (!str.isEmpty()){
+            resul = true;
+        }
+        if (str == ""){
+            resul = false;
+        }
+
+        return resul;
+    }
 }
