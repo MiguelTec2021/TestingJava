@@ -34,4 +34,11 @@ public class StringUtilTest {
         Assert.assertEquals(true, StringUtil.isEmpty(""));
     }
 
+    @Test
+    public void quotes_with_space_is_empty() {
+        Assert.assertEquals(true, StringUtil.isEmpty("s"));
+    }
+
+
+
 }
