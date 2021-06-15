@@ -24,10 +24,10 @@ public class StringUtilTest {
         StringUtil.repeat("hola", -1);
     }
 
-
     @Test
-    public void string_is_not_empty() {
+    public void string_empty() {
         Assert.assertEquals(true, StringUtil.isEmpty("s"));
     }
+
 
 }
