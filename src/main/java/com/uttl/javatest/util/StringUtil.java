@@ -19,6 +19,17 @@ public class StringUtil {
     public static Boolean isEmpty(String str) {
         boolean resul = false;
 
+
+        if (str == null){
+            resul = true;
+            System.out.println("Vacio");
+        }else if (str.trim() == ""){
+            resul = true;
+            System.out.println("Vacio");
+        }else if(!str.isEmpty() && str != ""){
+            resul = true;
+            System.out.println("String");
+        }
         return resul;
     }
 
