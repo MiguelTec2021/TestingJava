@@ -22,13 +22,10 @@ public class StringUtil {
 
         if (str == null){
             resul = true;
-            System.out.println("Vacio");
         }else if (str.trim() == ""){
             resul = true;
-            System.out.println("Vacio");
         }else if(!str.isEmpty() && str != ""){
             resul = true;
-            System.out.println("String");
         }
         return resul;
     }
