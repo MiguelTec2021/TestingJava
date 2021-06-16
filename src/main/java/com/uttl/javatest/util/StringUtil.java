@@ -15,4 +15,19 @@ public class StringUtil {
         }
         return result;
     }
+
+    public static Boolean isEmpty(String str) {
+        boolean resul = false;
+
+
+        if (str == null){
+            resul = true;
+        }else if (str.trim() == ""){
+            resul = true;
+        }else if(!str.isEmpty() && str != ""){
+            resul = true;
+        }
+        return resul;
+    }
+
 }
