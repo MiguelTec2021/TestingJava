@@ -19,7 +19,6 @@ public class StringUtil {
     public static Boolean isEmpty(String str) {
         boolean resul = false;
 
-
         if (str == null){
             resul = true;
         }else if (str.trim() == ""){
